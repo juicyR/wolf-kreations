@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(/assets/RocherColorGX.woff2);
+}
+
+@font-palette-values --Cartoon {
+    font-family: Rocher;
+    base-palette: 9;
+}
+
+.caption-text > h1 {
+    font-palette: --Cartoon;
+}
