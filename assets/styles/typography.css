@@ -1,13 +1,37 @@
-@font-face {
-    font-family: 'Rocher';
-    src: url(/assets/RocherColorGX.woff2);
-}
+.who-we-are > h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #555555;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  
+  .who-we-are > p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 22px;
+  }
 
-@font-palette-values --Cartoon {
-    font-family: Rocher;
-    base-palette: 9;
-}
+  .what-we-do > h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #555555;
+    font-weight: 900;
+    margin-bottom: 65px;
+    font-size: 35px;
+  }
 
-.caption-text > h1 {
-    font-palette: --Cartoon;
-}
+  .wwdd-text {
+    color: #555555;
+  }
+  
+  .wwdd-text > h1 {
+    margin: 30px 0 30px 0;
+  }
+
+  /* footer */
+
+  .footer-header {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+  }
