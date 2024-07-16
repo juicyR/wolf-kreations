@@ -288,11 +288,7 @@ p, h1 {
 
 .footer {
   width: 100%;
-}
-
-.footer-header {
-  background: #555555;
-  padding: 5px 0 5px 0;
+  background: url(/assets/images/footer.jpg);
 }
 
 .footer-content {
@@ -301,7 +297,7 @@ p, h1 {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  background: #d6d6d6;
+  background: rgba(0, 0, 0, 0.329);
 }
 
 .footer-line {
